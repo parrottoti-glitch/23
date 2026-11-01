@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    android:background="@android:color/transparent">
+
+    <!-- دایره بیرونی درخشان -->
+    <View
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="#33EF4444" />
+
+    <!-- خطوط کراس‌هیر افقی و عمودی -->
+    <View
+        android:layout_width="56dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="#EF4444" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="#EF4444" />
+
+    <!-- نقطه مرکزی دقیق لمس (Bullseye) -->
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:background="#EF4444" />
+
+    <!-- برچسب شماره هدف -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:background="#EF4444"
+        android:paddingHorizontal="4dp" />
+</FrameLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#EE0F172A"
+    android:padding="8dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⋮⋮ کشیدن منو"
+        android:textColor="#94A3B8"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvFloatingClock"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="00:00:00.000"
+        android:textColor="#10B981"
+        android:textSize="10sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#020617"
+        android:padding="3dp"
+        android:layout_marginBottom="6dp" />
+
+    <Button
+        android:id="@+id/btnFloatingPlay"
+        android:layout_width="88dp"
+        android:layout_height="42dp"
+        android:text="▶ شروع"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#10B981"
+        android:layout_marginBottom="4dp" />
+
+    <Button
+        android:id="@+id/btnFloatingStop"
+        android:layout_width="88dp"
+        android:layout_height="42dp"
+        android:text="⏹ توقف"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#EF4444"
+        android:layout_marginBottom="4dp" />
+
+    <Button
+        android:id="@+id/btnFloatingClose"
+        android:layout_width="88dp"
+        android:layout_height="32dp"
+        android:text="✕ بستن"
+        android:textSize="10sp"
+        android:textColor="#94A3B8"
+        android:backgroundTint="#334155" />
+
+</LinearLayout>
